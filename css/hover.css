@@ -1,0 +1,90 @@
+.header-link:focus {
+  outline: 1px solid #71A7E2;
+}
+
+.header-link:hover {
+  color: #71A7E2;
+}
+
+.header-link:active {
+  outline: none;
+  color: #3172B9;
+  border-bottom: 2px solid #3172B9;
+  max-width: 100%;
+}
+
+.btn:hover {
+ background-color: #71A7E2;
+}
+
+.btn:active {
+  background-color: #0E3B6C;
+}
+
+.secrvices-item:hover {
+  background-color: #3172B9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.secrvices-item:hover .services-item-icon path {
+  fill: #fff;
+}
+
+.secrvices-item:hover .services-item-title {
+  color: #fff;
+}
+
+.secrvices-item:hover .services-item-descr {
+  color: #fff;
+}
+
+.blog-preview:hover {
+  background-color: #3172B9;
+  cursor: pointer;
+}
+
+.blog-preview:hover .blog-preview-time {
+  color: #fff;
+}
+
+.blog-preview:hover .blog-preview-title {
+  color: #fff;
+}
+
+.blog-preview:hover .blog-preview-descr {
+  color: #fff;
+}
+
+.blog-preview:active {
+  background-color: #0E3B6C;
+}
+
+.blog-preview:focus {
+  outline: none;
+  background-color: #71A7E2;
+}
+
+.contacts-item-link:hover {
+  color: #71A7E2;
+}
+
+.footer-link:focus {
+  outline: 1px solid #71A7E2;
+}
+
+
+.footer-link:hover {
+  color: #71A7E2;
+}
+
+.footer-link:active {
+  outline: none;
+  color: #3172B9;
+  border-bottom: 2px solid #3172B9;
+  max-width: 100%;
+}
+
+.social-link-tw:hover {
+  background-image: url('../img/fotter-tw.svg') #71A7E2;
+}

@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="plugins/choices.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/select-list.css">
   <title>LIonic</title>
 </head>
 <body>
@@ -41,7 +44,7 @@
             </a>
           </li>
           <li class="header-item">
-            <a href="#join us" class="header-link">
+            <a href="#join-us" class="header-link">
               Join us
             </a>
           </li>
@@ -320,7 +323,7 @@
               <input class="form-input" type="text" name="name" placeholder="Name" required>
               <input class="form-input" type="email" name="email" placeholder="E-mail" required>
               <input class="form-input" type="tel" name="phone" placeholder="Phone" required>
-              <select class="form-select" name="country">
+              <select class="form-select" name="country" id="selectCustom">
                 <option value="Country" disabled selected>Country</option>
                 <option value="United Kingdom">United Kingdom</option>
                 <option value="United States">United States</option>
@@ -377,12 +380,20 @@
 					</ul>
 				</nav>
 				<ul class="list-reset social flex">
-					<li class="social-item"><a href="#" class="social-link social-link-tw"></a></li>
-					<li class="social-item"><a href="#" class="social-link social-link-linkedin"></a></li>
-					<li class="social-item"><a href="#" class="social-link social-link-mail"></a></li>
+					<li class="social-item">
+            <a href="#" class="social-link social-link-tw"></a>
+          </li>
+					<li class="social-item">
+            <a href="#" class="social-link social-link-linkedin"></a>
+          </li>
+					<li class="social-item">
+            <a href="#" class="social-link social-link-mail"></a>
+          </li>
 				</ul>
 			</div>
 		</div>
 	</footer>
+  <script src="plugins/choices.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

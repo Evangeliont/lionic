@@ -1,0 +1,9 @@
+.choices__inner {
+  background-color: transparent;
+  border: 1px solid #DADADA;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding: 16px 28px;
+  width: 251px;
+  height: 60px;
+}
