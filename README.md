@@ -1,3 +1,3 @@
 # LIONIC
 Educational project
-link to site http://lionic-education-project.tmweb.ru/
+link to site https://evangeliont.github.io/lionic/
